@@ -2,10 +2,10 @@ Gem::Specification.new do |spec|
   spec.name          = 'lita-httpcat'
   spec.version       = '0.1.0'
   spec.authors       = ['Chulki Lee']
-  spec.email         = ['TODO: Write your email address']
-  spec.description   = 'TODO: Add a description'
-  spec.summary       = 'TODO: Add a summary'
-  spec.homepage      = 'TODO: Add a homepage'
+  spec.email         = ['chulki.lee@gmail.com']
+  spec.description   = 'a lita handler that displays HTTP Status Cats using https://http.cat/'
+  spec.summary       = 'a lita handler that displays HTTP Status Cats using https://http.cat/'
+  spec.homepage      = 'https://github.com/chulkilee/lita-httpcat'
   spec.license       = 'MIT'
   spec.metadata      = { 'lita_plugin_type' => 'handler' }
 

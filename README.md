@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/chulkilee/lita-httpcat.png?branch=master)](https://travis-ci.org/chulkilee/lita-httpcat)
 [![Coverage Status](https://coveralls.io/repos/chulkilee/lita-httpcat/badge.png)](https://coveralls.io/r/chulkilee/lita-httpcat)
 
-TODO: Add a description of the plugin.
+a [lita](https://www.lita.io/) handler that displays [HTTP Status Cats](https://http.cat/)
 
 ## Installation
 
