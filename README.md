@@ -15,11 +15,15 @@ gem 'lita-httpcat'
 
 ## Configuration
 
-TODO: Describe any configuration attributes the plugin exposes.
+- `prefix`: URL part before the status code (default: `https://http.cat/`)
+- `suffix`: URL part after the status code (default: `.jpg`)
 
 ## Usage
 
-TODO: Describe the plugin's features and how to use them.
+```
+Lita > httpcat 200
+https://http.cat/200.jpg
+```
 
 ## License
 
