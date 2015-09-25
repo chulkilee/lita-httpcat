@@ -7,10 +7,12 @@ module Lita
       config :prefix, type: String
       config :suffix, type: String
 
-      route(/^httpcat\s+(\d{3})/, :httpcat, help: { 'httpcat STATUS_CODE' => 'Shows httpcat for the status code' })
+      route(/^httpcat\s+(?<code>\d{3})/,
+            :httpcat,
+            help: { 'httpcat STATUS_CODE' => 'Shows httpcat for the status code' })
 
       def httpcat(response)
-        response.reply(build_url(response.matches[0][0]))
+        response.reply(build_url(response.match_data['code']))
       end
 
       private
