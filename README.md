@@ -10,7 +10,7 @@ TODO: Add a description of the plugin.
 Add lita-httpcat to your Lita instance's Gemfile:
 
 ``` ruby
-gem "lita-httpcat"
+gem 'lita-httpcat'
 ```
 
 ## Configuration
