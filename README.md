@@ -1,7 +1,7 @@
 # lita-httpcat
 
-[![Build Status](https://travis-ci.org/chulkilee/lita-httpcat.png?branch=master)](https://travis-ci.org/chulkilee/lita-httpcat)
-[![Coverage Status](https://coveralls.io/repos/chulkilee/lita-httpcat/badge.png)](https://coveralls.io/r/chulkilee/lita-httpcat)
+[![Build Status](https://travis-ci.org/chulkilee/lita-httpcat.svg?branch=master)](https://travis-ci.org/chulkilee/lita-httpcat)
+[![Coverage Status](https://coveralls.io/repos/chulkilee/lita-httpcat/badge.svg?branch=master&service=github)](https://coveralls.io/github/chulkilee/lita-httpcat?branch=master)
 
 a [lita](https://www.lita.io/) handler that displays [HTTP Status Cats](https://http.cat/)
 
